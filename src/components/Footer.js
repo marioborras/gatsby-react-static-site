@@ -33,19 +33,19 @@ const Footer = () => (
         <h2 className="text-title text-capitalize py-4">contact us</h2>
         <ul className="list-unstyled">
           <li className="pb-3">
-            <i class="fas fa-map-marker-alt pr-3" />
+            <i className="fas fa-map-marker-alt pr-3" />
             Media, PA 19063, United States
           </li>
           <li className="pb-3">
-            <i class="fas fa-mobile-alt pr-3" />
+            <i className="fas fa-mobile-alt pr-3" />
             Call Us: 610-565-1076
           </li>
           <li className="pb-3">
-            <i class="far fa-envelope pr-3" />
+            <i className="far fa-envelope pr-3" />
             tcamedia@hotmail.com
           </li>
           <li className="pb-3">
-            <i class="far fa-clock pr-3" />
+            <i className="far fa-clock pr-3" />
             Monday-Fridayday: 7:00am - 6:00 pm
           </li>
         </ul>
