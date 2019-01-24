@@ -1,4 +1,59 @@
+:root {
+  --mainBlue: #104d7e;
+  --mainDark: #7e2f10;
+  --mainOrange: #e45e2a;
+  --lightpink: #ffe9ec;
+}
+html {
+  font-size: 62.5% !important;
+}
+body {
+  font-family: 'Hind', Arial, Helvetica, sans-serif !important;
+}
 .img-ca {
   max-width: 150px;
   /* max-height: 5rem; */
+}
+.text-title {
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.location-block {
+  background-color: var(--mainBlue);
+  color: #fff;
+  font-size: 1.5rem;
+}
+.operation-block {
+  background-color: var(--mainDark);
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.footer {
+  background-color: var(--mainOrange);
+  color: #fff;
+}
+.groups {
+  background-color: var(--lightpink);
+  font-size: 1.8rem;
+}
+.groups h3 {
+  color: #ef5874;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+.groups p {
+  color: #9c8481;
+}
+
+.ages-divider {
+  height: 0.95rem;
+  max-width: 95%;
+  margin: 0 auto;
+  background-color: var(--mainBlue);
+}
+
+.nav-item {
+  font-size: 1.8rem !important;
 }

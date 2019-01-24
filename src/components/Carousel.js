@@ -8,16 +8,17 @@ import pic3 from '../../public/img/slide3.jpg';
 export default class CarouselComponent extends Component {
   render() {
     return (
-      <Carousel autoPlay infiniteLoop>
+      <Carousel autoPlay infiniteLoop={true} showArrows={false} showThumbs={false} showStatus={false}>
         <div>
-          <img src={pic1} />
+          <img src={pic1} alt="children" />
         </div>
         <div>
-          <img src={pic2} />
+          <img src={pic2} alt="children" />
         </div>
         <div>
-          <img src={pic3} />
+          <img src={pic3} alt="children" />
         </div>
+        <div />
       </Carousel>
     );
   }
