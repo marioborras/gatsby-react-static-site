@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Quicksand');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
 :root {
   --mainBlue: #104d7e;
   --mainDark: #7e2f10;
   --mainOrange: #e45e2a;
-  --lightpink: #ffe9ec;
+  --lightPeach: #fff3ea;
+  --lightBrown: #9c8481;
+  --darkBrown: rgb(166, 86, 86);
+  --titleBrown: rgb(116, 86, 86);
+  --lightgray: #d3d3d3;
 }
 html {
   font-size: 62.5% !important;
@@ -35,7 +42,7 @@ body {
   color: #fff;
 }
 .groups {
-  background-color: var(--lightpink);
+  background-color: var(--lightPeach);
   font-size: 1.8rem;
 }
 .groups h3 {
@@ -44,7 +51,7 @@ body {
   line-height: 2.4rem;
 }
 .groups p {
-  color: #9c8481;
+  color: var(--lightBrown);
 }
 
 .ages-divider {
@@ -54,6 +61,76 @@ body {
   background-color: var(--mainBlue);
 }
 
+.info h3 {
+  color: var(--darkBrown);
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+
+.info p {
+  color: var(--lightBrown);
+  font-size: 1.4rem;
+}
 .nav-item {
   font-size: 1.8rem !important;
+}
+
+/* buttons */
+.blue-btn {
+  background-color: var(--mainBlue);
+}
+.blue-btn:hover {
+  background: var(--mainOrange);
+}
+.orange-btn {
+  background: var(--mainOrange);
+}
+.orange-btn:hover {
+  background: var(--mainBlue);
+}
+
+/* tab area */
+.tab-widget {
+  background: var(--lightPeach);
+}
+.tab-widget .nav-item {
+  border-top: 0.1rem solid var(--lightgray);
+  border-right: 0.1rem solid var(--lightgray);
+  border-left: 0.1rem solid var(--lightgray);
+}
+#nav-home-tab {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+.tab-widget {
+  color: var(--lightBrown);
+}
+.tab-widget a {
+  color: var(--mainOrange);
+  transition: all 0.5s ease-in-out;
+}
+.tab-widget a:hover {
+  background: #fff;
+}
+.tab-widget .active {
+  background: #fff;
+}
+.tab-widget h1,
+h3 {
+  color: var(--titleBrown);
+}
+.tab-content {
+  background: #fff;
+  border-right: 0.1rem solid var(--lightgray);
+  border-left: 0.1rem solid var(--lightgray);
+  border-top: 0.1rem solid var(--lightgray);
+  border-bottom: 1rem solid var(--mainBlue);
+}
+.tab-content p {
+  font-size: 1.4rem;
+  padding-top: 2rem;
+  padding-right: 10rem;
+}
+.tab-pane a {
+  font-size: 1.8rem;
 }

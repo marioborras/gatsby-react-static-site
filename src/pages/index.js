@@ -6,6 +6,8 @@ import Header from '../components/Header';
 import CarouselComponent from '../components/Carousel';
 import Link from 'gatsby-link';
 import Ages from '../components/Ages';
+import Info from '../components/Info';
+import OffersTab from '../components/OffersTab';
 import Footer from '../components/Footer';
 
 export default () => (
@@ -40,6 +42,8 @@ export default () => (
       </div>
     </div>
     <Ages />
+    <Info />
+    <OffersTab />
     <Footer />
   </div>
 );
