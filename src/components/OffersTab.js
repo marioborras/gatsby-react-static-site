@@ -46,7 +46,7 @@ const OffersTab = () => (
     <div className="tab-content" id="nav-tabContent">
       <div className="tab-pane fade show active p-5" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
         <div>
-          <img src={ChildTree} className="img-fluid" />
+          <img src={ChildTree} className="img-fluid" alt="child by a tree" />
         </div>
         <div className="mt-5">
           <h3 className="text-title">Our Programs</h3>
@@ -64,7 +64,7 @@ const OffersTab = () => (
       </div>
       <div className="tab-pane fade p-5" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
         <div>
-          <img src={ChildFloor} className="img-fluid" />
+          <img src={ChildFloor} className="img-fluid" alt="kids coloring on the floor" />
         </div>
         <div className="mt-5">
           <h3 className="text-title">Our Curriculum</h3>
@@ -82,7 +82,7 @@ const OffersTab = () => (
       </div>
       <div className="tab-pane fade p-5" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
         <div>
-          <img src={ChildToys} className="img-fluid" />
+          <img src={ChildToys} className="img-fluid" alt="children's toy" />
         </div>
         <div className="mt-5">
           <h3 className="text-title">Staff</h3>
