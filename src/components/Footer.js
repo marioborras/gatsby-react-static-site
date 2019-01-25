@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../public/img/logo.png';
+import logo from './../../public/img/logo.png';
 
 const Footer = () => (
   <footer className="mt-4 footer py-3">

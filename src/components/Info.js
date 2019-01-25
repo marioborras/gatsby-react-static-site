@@ -1,6 +1,6 @@
 import React from 'react';
-import smilingChild from '../../public/img/child-smiling.jpeg';
-import childCrayon from '../../public/img/child-crayons.jpeg';
+import smilingChild from './../../public/img/child-smiling.jpeg';
+import childCrayon from './../../public/img/child-crayons.jpeg';
 import { ButtonContainer } from './Button/Button';
 const Info = () => {
   return (
@@ -30,7 +30,7 @@ const Info = () => {
               <ButtonContainer className="orange-btn">View Our Programs</ButtonContainer>
             </div>
             <div className="my-5">
-              <img className="img-fluid" src={childCrayon} kid="kid coloring" />
+              <img className="img-fluid" src={childCrayon} alt="kid coloring" />
             </div>
           </div>
         </div>
