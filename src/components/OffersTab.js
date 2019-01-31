@@ -1,7 +1,7 @@
 import React from 'react';
-import ChildTree from './../../public/img/child-tree.jpg';
-import ChildFloor from './../../public/img/child-floor.jpg';
-import ChildToys from './../../public/img/child-toys.jpg';
+import ChildTree from '../img/child-tree.jpg';
+import ChildFloor from '../img/child-floor.jpg';
+import ChildToys from '../img/child-toys.jpg';
 import Link from 'gatsby-link';
 const OffersTab = () => (
   <div className="tab-widget p-5">
