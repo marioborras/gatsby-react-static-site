@@ -62,7 +62,7 @@ body {
 /* info area */
 
 .info-box-pic-one {
-  background-image: url('../public/img/child-smiling.jpeg');
+  background-image: url('./img/child-smiling.jpeg');
 }
 
 .info-box-pic {
@@ -74,11 +74,11 @@ body {
 }
 
 .info-box-pic-one {
-  background-image: url('../public/img/child-smiling.jpeg');
+  background-image: url('./img/child-smiling.jpeg');
 }
 
 .info-box-pic-two {
-  background-image: url('../public/img/child-crayons.jpeg');
+  background-image: url('./img/child-crayons.jpeg');
 }
 
 .ages-divider {
@@ -118,7 +118,7 @@ body {
 
 /* tab area */
 .tab-widget {
-  background-image: url('../public/img/pattern.jpg');
+  background-image: url('./img/pattern.jpg');
   color: var(--lightBrown);
 }
 .tab-widget .nav-item {
