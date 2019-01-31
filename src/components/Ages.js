@@ -1,8 +1,9 @@
 import React from 'react';
-import toddler from './../../public/img/toddler.png';
-import youngToddler from './../../public/img/young-toddler.png';
-import preschooler from './../../public/img/preschoolers.png';
-import prek from './../../public/img/prek.png';
+import toddler from '../img/toddler.png';
+import youngToddler from '../img/young-toddler.png';
+import preschooler from '../img/preschoolers.png';
+import prek from '../img/prek.png';
+
 const Ages = () => (
   <React.Fragment>
     <div className="groups py-2 mt-5 d-md-flex">
