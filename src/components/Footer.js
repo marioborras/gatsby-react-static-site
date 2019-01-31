@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className="mt-4 footer py-3">
     <div className="container">
       <div className="row">
-        <div className="col-sm-6 col-xs-2">
+        <div className="col-12 col-md-4">
           <h2 className="text-title text-capitalize py-4">about us</h2>
           <ul className="list-unstyled">
             <li>The Children's Academy, established in 1986,</li>
@@ -17,9 +17,7 @@ const Footer = () => (
             <li>our full day kindergarten class.</li>
           </ul>
         </div>
-      </div>
-      <div className="row">
-        <div className="col-sm-6 col-xs-2">
+        <div className="col-12 col-md-4">
           <h2 className="text-title text-capitalize py-4">quick links</h2>
           <ul className="list-unstyled">
             <li>How to Enroll</li>
@@ -28,32 +26,40 @@ const Footer = () => (
             <li>Contact</li>
           </ul>
         </div>
-      </div>
-      <div>
-        <h2 className="text-title text-capitalize py-4">contact us</h2>
-        <ul className="list-unstyled">
-          <li className="pb-3">
-            <i className="fas fa-map-marker-alt pr-3" />
-            Media, PA 19063, United States
-          </li>
-          <li className="pb-3">
-            <i className="fas fa-mobile-alt pr-3" />
-            Call Us: 610-565-1076
-          </li>
-          <li className="pb-3">
-            <i className="far fa-envelope pr-3" />
-            tcamedia@hotmail.com
-          </li>
-          <li className="pb-3">
-            <i className="far fa-clock pr-3" />
-            Monday-Fridayday: 7:00am - 6:00 pm
-          </li>
-        </ul>
+        <div className="col-12 col-md-4">
+          <h2 className="text-title text-capitalize py-4">contact us</h2>
+          <ul className="list-unstyled">
+            <li className="pb-3">
+              <i className="fas fa-map-marker-alt pr-3" />
+              Media, PA 19063, United States
+            </li>
+            <li className="pb-3">
+              <i className="fas fa-mobile-alt pr-3" />
+              Call Us: 610-565-1076
+            </li>
+            <li className="pb-3">
+              <i className="far fa-envelope pr-3" />
+              tcamedia@hotmail.com
+            </li>
+            <li className="pb-3">
+              <i className="far fa-clock pr-3" />
+              Monday-Fridayday: 7:00am - 6:00 pm
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <hr />
     <div>
-      <img src={logo} alt="logo" className="img-ca mx-auto py-4 d-block" />
+      <div>
+        <img src={logo} alt="logo" className="img-ca mx-auto py-4 d-block" />
+      </div>
+      <p className="text-center text-md-right pr-4">
+        Copyright &copy; 2019 The Children's Academy Media, PA - Website Design by{' '}
+        <a href="https://www.marioborras.me" target="blank">
+          Mario Borras
+        </a>
+      </p>
     </div>
   </footer>
 );

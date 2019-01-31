@@ -4,11 +4,11 @@ import ChildFloor from './../../public/img/child-floor.jpg';
 import ChildToys from './../../public/img/child-toys.jpg';
 import Link from 'gatsby-link';
 const OffersTab = () => (
-  <div className="container tab-widget p-5">
+  <div className="tab-widget p-5">
     <div className="text-center p-5">
       <h1 className="text-capitalize">what we offer</h1>
     </div>
-    <div className="nav flex-column text-center" id="nav-tab" role="tablist">
+    <div className="nav d-flex flex-column flex-md-row text-center" id="nav-tab" role="tablist">
       <a
         className="nav-item widget-tab-top nav-link active"
         id="nav-home-tab"
@@ -44,58 +44,85 @@ const OffersTab = () => (
       </a>
     </div>
     <div className="tab-content" id="nav-tabContent">
-      <div className="tab-pane fade show active p-5" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-        <div>
-          <img src={ChildTree} className="img-fluid" alt="child by a tree" />
-        </div>
-        <div className="mt-5">
-          <h3 className="text-title">Our Programs</h3>
-        </div>
-        <div>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, atque voluptas. Perspiciatis dolorum vitae
-            recusandae ea tempore ipsum enim mollitia esse repudiandae, possimus quae neque quia laborum corporis,
-            quaerat sed?
-          </p>
-        </div>
-        <div>
-          <Link to="/">Learn More</Link>
-        </div>
-      </div>
-      <div className="tab-pane fade p-5" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-        <div>
-          <img src={ChildFloor} className="img-fluid" alt="kids coloring on the floor" />
-        </div>
-        <div className="mt-5">
-          <h3 className="text-title">Our Curriculum</h3>
-        </div>
-        <div>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, atque voluptas. Perspiciatis dolorum vitae
-            recusandae ea tempore ipsum enim mollitia esse repudiandae, possimus quae neque quia laborum corporis,
-            quaerat sed?
-          </p>
-        </div>
-        <div>
-          <Link to="/">Learn More</Link>
+      <div
+        className="tab-pane fade show active p-5"
+        id="nav-home"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+      >
+        <div className="row">
+          <div className="col-lg-6">
+            <img src={ChildTree} className="img-fluid" alt="child by a tree" />
+          </div>
+          <div className="col-lg-6">
+            <div className="mt-5">
+              <h3 className="text-title">Our Programs</h3>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, atque voluptas.
+                Perspiciatis dolorum vitae recusandae ea tempore ipsum enim mollitia esse
+                repudiandae, possimus quae neque quia laborum corporis, quaerat sed?
+              </p>
+              <div>
+                <Link to="/">Learn More</Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="tab-pane fade p-5" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-        <div>
-          <img src={ChildToys} className="img-fluid" alt="children's toy" />
+      <div
+        className="tab-pane fade p-5"
+        id="nav-profile"
+        role="tabpanel"
+        aria-labelledby="nav-profile-tab"
+      >
+        <div className="row">
+          <div className="col-lg-6">
+            <img src={ChildFloor} className="img-fluid" alt="kids coloring on the floor" />
+          </div>
+          <div className="col-lg-6">
+            <div className="mt-5">
+              <h3 className="text-title">Our Curriculum</h3>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, atque voluptas.
+                Perspiciatis dolorum vitae recusandae ea tempore ipsum enim mollitia esse
+                repudiandae, possimus quae neque quia laborum corporis, quaerat sed?
+              </p>
+            </div>
+            <div>
+              <Link to="/">Learn More</Link>
+            </div>
+          </div>
         </div>
-        <div className="mt-5">
-          <h3 className="text-title">Staff</h3>
-        </div>
-        <div>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, atque voluptas. Perspiciatis dolorum vitae
-            recusandae ea tempore ipsum enim mollitia esse repudiandae, possimus quae neque quia laborum corporis,
-            quaerat sed?
-          </p>
-        </div>
-        <div>
-          <Link to="/">Learn More</Link>
+      </div>
+      <div
+        className="tab-pane fade p-5"
+        id="nav-contact"
+        role="tabpanel"
+        aria-labelledby="nav-contact-tab"
+      >
+        <div className="row">
+          <div className="col-lg-6">
+            <img src={ChildToys} className="img-fluid" alt="children's toy" />
+          </div>
+          <div className="col-lg-6">
+            <div className="mt-5">
+              <h3 className="text-title">Staff</h3>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, atque voluptas.
+                Perspiciatis dolorum vitae recusandae ea tempore ipsum enim mollitia esse
+                repudiandae, possimus quae neque quia laborum corporis, quaerat sed?
+              </p>
+              <div>
+                <Link to="/">Learn More</Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

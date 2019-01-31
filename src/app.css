@@ -14,6 +14,13 @@
 html {
   font-size: 62.5% !important;
 }
+/* Header */
+.navbar-nav a {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.carousel {
+}
 body {
   font-family: 'Hind', Arial, Helvetica, sans-serif !important;
 }
@@ -53,6 +60,27 @@ body {
 .groups p {
   color: var(--lightBrown);
 }
+/* info area */
+
+.info-box-pic-one {
+  background-image: url('../public/img/child-smiling.jpeg');
+}
+
+.info-box-pic {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 15rem 10rem;
+  max-width: 100%;
+}
+
+.info-box-pic-one {
+  background-image: url('../public/img/child-smiling.jpeg');
+}
+
+.info-box-pic-two {
+  background-image: url('../public/img/child-crayons.jpeg');
+}
 
 .ages-divider {
   height: 0.95rem;
@@ -91,22 +119,24 @@ body {
 
 /* tab area */
 .tab-widget {
-  background: var(--lightPeach);
+  background-image: url('../public/img/pattern.jpg');
+  color: var(--lightBrown);
 }
 .tab-widget .nav-item {
+  background-color: var(--lightPeach);
   border-top: 0.1rem solid var(--lightgray);
   border-right: 0.1rem solid var(--lightgray);
   border-left: 0.1rem solid var(--lightgray);
+  border-bottom: 0.1rem solid var(--lightgray);
 }
 #nav-home-tab {
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
 }
-.tab-widget {
-  color: var(--lightBrown);
-}
+
 .tab-widget a {
   color: var(--mainOrange);
+  font-weight: 700;
   transition: all 0.5s ease-in-out;
 }
 .tab-widget a:hover {
@@ -121,9 +151,9 @@ h3 {
 }
 .tab-content {
   background: #fff;
+  border-top: 0.1rem solid var(--lightgray);
   border-right: 0.1rem solid var(--lightgray);
   border-left: 0.1rem solid var(--lightgray);
-  border-top: 0.1rem solid var(--lightgray);
   border-bottom: 1rem solid var(--mainBlue);
 }
 .tab-content p {
@@ -133,4 +163,25 @@ h3 {
 }
 .tab-pane a {
   font-size: 1.8rem;
+}
+/* footer */
+.footer a {
+  color: var(--lightgray);
+}
+
+/* media queries */
+@media (min-width: 768px) {
+  .carousel-wrapper {
+    height: 450px;
+    overflow: hidden;
+  }
+  .tab-widget .nav-item {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom: none;
+    padding: 2.3rem 5.3rem;
+  }
+  .active {
+    border-bottom: none;
+  }
 }
